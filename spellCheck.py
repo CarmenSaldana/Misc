@@ -72,7 +72,7 @@ def spellcheckWords(str):
     output = ' '.join(correctedWords)# turn back into a string
     return output
 
-'''Usage'''
+'''Test'''
 word='kaglu'
 corrected_word=spellcheckWords(word)
 print corrected_word
